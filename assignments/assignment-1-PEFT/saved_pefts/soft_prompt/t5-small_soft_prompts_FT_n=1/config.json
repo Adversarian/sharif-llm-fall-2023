@@ -1,0 +1,17 @@
+{
+  "backbone_checkpoint_name": "t5-small",
+  "backbone_class": "T5ForConditionalGeneration",
+  "backbone_hash": "b989d6b78f039f46f29a44c830d38d49",
+  "delta_type": "soft_prompt",
+  "exclude_modules": [
+    "lm_head"
+  ],
+  "init_range": 0.5,
+  "modified_modules": [
+    "root"
+  ],
+  "opendelta_version": "0.3.0",
+  "soft_token_num": 1,
+  "token_init": true,
+  "transformers_version": "4.35.2"
+}
